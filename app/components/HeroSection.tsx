@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
 	return (
-		<section className="flex flex-col items-center justify-center h-screen overflow-hidden">
+		<section className="flex flex-col items-center justify-center h-screen overflow-hidden sticky top-0">
 			<Image
 				src="/HeroBackground.png"
 				alt="Hero Background"

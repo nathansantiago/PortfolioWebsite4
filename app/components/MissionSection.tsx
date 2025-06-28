@@ -1,13 +1,13 @@
 export default function MissionSection() {
   return (
-    <section className="relative flex flex-col items-center justify-center h-screen overflow-hidden">
+    <section className="flex flex-col items-center justify-center h-screen overflow-hidden sticky top-0">
       <video
         src='/MissionStatementBackground.mov'
         autoPlay
         muted
         loop
         playsInline
-        className="absolute inset-0 w-full h-full object-cover -z-10 blur-xs"
+        className="absolute inset-0 w-full h-full object-cover -z-10"
       />
       <p className="relative text-sm z-10 max-w-4xl px-6 text-center">
         Rooted in curiosity. Driven by creativity.

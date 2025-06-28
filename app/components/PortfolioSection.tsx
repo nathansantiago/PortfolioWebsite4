@@ -3,8 +3,8 @@ import PortfolioCategory from "@/app/components/PortfolioCategory";
 
 export default function PortfolioSection() {
 	return (
-		<section className="grid place-items-center lg:min-h-screen">
-			<div className="grid gap-y-8 lg:grid-cols-3 lg:py-32 w-full">
+		<section className="grid place-items-center lg:min-h-screen bg-cream">
+			<div className="grid gap-y-8 lg:grid-cols-3 lg:py-32 w-full text-black">
 				<div className="max-lg:sticky max-lg:top-0 max-lg:grid max-lg:min-h-screen max-lg:place-items-center">
 					<PortfolioCategory
 						imageUrl="/BrightstarPersonal.png"

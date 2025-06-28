@@ -11,14 +11,16 @@ interface PortfolioCategoryProps {
 export default function PotfolioCategory(props: PortfolioCategoryProps) {
 	return (
 		<div className="mx-auto max-w-1/2 text-center">
-			<Image
-				src={props.imageUrl}
-				alt={props.imageUrl}
-				width={550}
-				height={782}
-				quality={90}
-				className="h-full w-full object-cover"
-			/>
+			<div className="shadow-cream-background shadow-sm">
+				<Image
+					src={props.imageUrl}
+					alt={props.imageUrl}
+					width={550}
+					height={782}
+					quality={90}
+					className="h-full w-full object-cover"
+				/>
+			</div>
 			<header className="my-8">
 				<h3 className="font-montserrat text-xl">{props.title}</h3>
 				<p className="text-base">{props.role}</p>

@@ -1,35 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	--background: #ffffff;
+	--foreground: #171717;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-cream: oklch(0.9595 0.0316 73.54);
-  --color-cream-background: oklch(0.8328 0 0);
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--color-cream: oklch(0.9595 0.0316 73.54);
+	--color-cream-background: oklch(0.8328 0 0);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: oklch(0.9595 0.0316 73.54);
-  }
+	:root {
+		--background: #0a0a0a;
+		--foreground: oklch(0.9595 0.0316 73.54);
+	}
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-courier), 'Courier New', Courier, monospace;
+	background: var(--background);
+	color: var(--foreground);
+	font-family: var(--font-courier), "Courier New", Courier, monospace;
 }
 
 /* Font utility classes */
 .font-montserrat {
-  font-family: var(--font-montserrat);
+	font-family: var(--font-montserrat);
 }
 
 .font-courier {
-  font-family: var(--font-courier);
+	font-family: var(--font-courier);
 }

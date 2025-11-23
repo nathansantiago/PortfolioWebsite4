@@ -3,9 +3,9 @@ import PortfolioCategory from "@/app/components/PortfolioCategory";
 
 export default function PortfolioSection() {
 	return (
-		<section className="grid place-items-center lg:min-h-screen bg-cream sticky top-0">
-			<div className="grid gap-y-8 lg:grid-cols-3 lg:py-32 w-full text-black">
-				<div className="max-lg:sticky max-lg:top-0 max-lg:grid max-lg:min-h-screen max-lg:place-items-center">
+		<section className="lg:grid lg:place-items-center lg:min-h-screen bg-cream lg:sticky lg:top-0">
+			<div className="grid gap-y-0 lg:gap-y-8 lg:grid-cols-3 w-full text-black">
+				<div className="sticky top-0 grid min-h-screen place-items-center bg-cream z-10">
 					<PortfolioCategory
 						imageUrl="/BrightstarPersonal.png"
 						title="BRIGHTSTAR"
@@ -14,7 +14,7 @@ export default function PortfolioSection() {
 						description="Frontend Design Lead"
 					/>
 				</div>
-				<div className="max-lg:sticky max-lg:top-0 max-lg:grid max-lg:min-h-screen max-lg:place-items-center max-lg:bg-[#DBD6CC]">
+				<div className="sticky top-0 grid min-h-screen place-items-center bg-cream lg:bg-transparent z-20">
 					<PortfolioCategory
 						imageUrl="/SheNotPersonal.png"
 						title="FREELANCE"
@@ -23,7 +23,7 @@ export default function PortfolioSection() {
 						description="Lifetime Programmer"
 					/>
 				</div>
-				<div className="max-lg:sticky max-lg:top-0 max-lg:grid max-lg:min-h-screen max-lg:place-items-center max-lg:bg-[#ECE8E1]">
+				<div className="sticky top-0 grid min-h-screen place-items-center bg-cream lg:bg-transparent z-30">
 					<PortfolioCategory
 						imageUrl="/VirnikaPersonal.png"
 						title="VIRNIKA"

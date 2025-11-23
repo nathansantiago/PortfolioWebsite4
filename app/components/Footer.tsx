@@ -8,15 +8,7 @@ export default function Footer() {
 				better tomorrow
 			</p>
 			<div className="flex gap-1">
-				<a href="#">
-					<Image
-						src="/symbols/XSymbol.png"
-						alt="X Symbol"
-						width={32}
-						height={32}
-					/>
-				</a>
-				<a href="#">
+				<a href="https://github.com/nathansantiago">
 					<Image
 						src="/symbols/GithubSymbol.png"
 						alt="Github Symbol"
@@ -24,18 +16,10 @@ export default function Footer() {
 						height={32}
 					/>
 				</a>
-				<a href="#">
+				<a href="https://www.linkedin.com/in/nathan-santiago/">
 					<Image
 						src="/symbols/LinkedInSymbol.png"
 						alt="LinkedIn Symbol"
-						width={32}
-						height={32}
-					/>
-				</a>
-				<a href="#">
-					<Image
-						src="/symbols/EmailSymbol.png"
-						alt="Email Symbol"
 						width={32}
 						height={32}
 					/>

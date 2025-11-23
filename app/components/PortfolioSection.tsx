@@ -20,7 +20,7 @@ export default function PortfolioSection() {
 						title="FREELANCE"
 						role="HOBBYIST"
 						dates="Since 2015"
-						description="Lifetime programmer"
+						description="Lifetime Programmer"
 					/>
 				</div>
 				<div className="max-lg:sticky max-lg:top-0 max-lg:grid max-lg:min-h-screen max-lg:place-items-center max-lg:bg-[#ECE8E1]">
